@@ -1,15 +1,14 @@
 
  # Pro sidebar template with multilevel dropdown
 
-Responsive sidebar template with multilevel dropdown menu based on bootstrap framwork
+Responsive sidebar template with multilevel dropdown menu based on bootstrap framework
 
 Based on pro-sidebar-temple developed by azouaoui (https://github.com/azouaoui-med/pro-sidebar-template)
 
-If you are looking for a version built with angular, then you should checkout the [Angular Pro Sidebar](https://github.com/azouaoui-med/angular-pro-sidebar) template
 
 ## Demo
 
-[See it live](https://https://github.com/grmagalhaes/pro-sidebar-template/src-multilevel-dropdown)
+[See it live](https://github.com/grmagalhaes/pro-sidebar-template/src-multilevel-dropdown)
 
 
 ## License
