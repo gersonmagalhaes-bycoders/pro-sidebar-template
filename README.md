@@ -8,7 +8,7 @@ Based on pro-sidebar-temple developed by azouaoui (https://github.com/azouaoui-m
 
 ## Demo
 
-[See it live](https://github.com/grmagalhaes/pro-sidebar-template/src-multilevel-dropdown)
+[See it live](https://grmtec.com.br/pro-sidebar-template/)
 
 
 ## License
