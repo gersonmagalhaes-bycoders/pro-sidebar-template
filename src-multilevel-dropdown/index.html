@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="author" content="GRM Tecnologia"> 
+    <meta name="description" content="Pro-sidebar-template with multilevel dropdown">
+    <title>Pro-sidebar-template with multilevel dropdown</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/sidebar-themes.css">
+   
+</head>
+
+<body>
+    <div id="app" class="page-wrapper default-theme bg1 toggled">
+        <nav id="sidebar" class="sidebar-wrapper">
+            <div class="sidebar-content">
+                <!-- sidebar-brand  -->
+                <div class="sidebar-item sidebar-brand">
+                    <a href="#"><span class="brand">Pro Side Bar</span></a>
+                </div>
+                <!-- sidebar-header  -->
+                <!-- sidebar-search  -->
+                <div class="sidebar-item sidebar-search">
+                    <div>
+                        <div class="input-group">
+                             <input id="busca" type="text" class="form-control search-menu" placeholder="Search...">  
+                              <div class="input-group-append"> 
+                                 <span class="input-group-text">
+                                    <a target="_new" onclick="redirect_google()"><i class="fa fa-search" aria-hidden="true"></i></a> 
+                                 </span>  
+                              </div>  
+                        </div>
+                    </div>
+                </div>
+                <!-- sidebar-menu  -->                
+                <div class=" sidebar-item sidebar-menu">
+                    <ul>
+                        <li class="header-menu">
+                            <span><i class="far fa-file-alt"></i><span class="span-sub-item">Header</span></span>
+                        </li>
+                        <li class="sidebar-dropdown">
+                            <a href="#">
+                                <i class="fas fa-folder-open"></i>
+                                <span class="menu-text">Level 1</span>
+                            </a>
+                            <div class="sidebar-submenu">
+                            <ul>
+                            	<li><a href="#"><i class="fas fa-cog"></i>Level 2.1</a></li>
+                            	<li><a href="#"><i class="fas fa-cog"></i>Level 2.2</a></li>
+                            	<li><a href="#"><i class="fas fa-cog"></i>Level 2.3</a></li>
+                            	<li class="sidebar-dropdown1">
+                            		<a href="#"><i class="fas fa-cog"></i>Level 2.4</a>
+                            		<div class="sidebar-submenu2">
+                            			<ul><li class="sidebar-dropdown2"><a href="#"><i class="fas fa-folder"></i>Level 3</a>
+                          					<div class="sidebar-submenu3">
+                            					<ul><li class="sidebar-dropdown3"><a href="#"><i class="fas fa-folder"></i>Level 4</a>
+                            			 			<div class="sidebar-submenu4">
+                            							<ul>
+                            								<li class="sidebar-dropdown4"><a href="#"><i class="fas fa-folder"></i>Level 5</a>
+                            								<div class="sidebar-submenu5">
+                            									<ul>
+                            										<li class="sidebar-dropdown5"><a href="#"><i class="fas fa-folder"></i>Level 6</a>
+                            										<div class="sidebar-submenu6">
+                            											<ul>
+                            												<li class="sidebar-dropdown6"><a href="#"><i class="fas fa-folder"></i>Level 7</a>
+                            												<div class="sidebar-submenu7">
+                            													<ul>
+                            														<li><a href="#"><i class="fas fa-folder"></i>Level 8.0</a></li>
+                            														<li><a href="#"><i class="fas fa-folder"></i>Level 8.1</a></li>
+                            														<li class="sidebar-dropdown7"><a href="#"><i class="fas fa-folder"></i>Level 8.2</a>
+                            														<div class="sidebar-submenu8">
+                            															<ul>
+                            												  				<li class="sidebar-dropdown8"><a href="#"><i class="fas fa-folder"></i>Level 9</a>
+                            											      				<div class="sidebar-submenu9">
+                            												    				<ul>
+	                            												      				<li><a href="#"><i class="fas fa-folder"></i>Level 10</a></li>
+                            												    				</ul>
+                            											      				</div>    
+                            											      				</li>                        												  
+                            															</ul>
+                            											   			</div>
+                            														<li><a href="#"><i class="fas fa-folder"></i>Level 8.3</a></li>
+                            													</ul>
+                            												</div>
+                            												</li>
+                            											</ul>
+                            										</div>
+                            										</li>
+                            									</ul>
+                            								</div>
+                            							</ul>
+                            						</div> 
+                            					</ul> 	
+                            				</div></li>
+                            	   		</ul>
+                            	   	</div>
+                            	</li>
+                            </ul>
+                            </div>
+                        </li> 
+                                 
+                    </ul>
+                </div>
+                <div class="sidebar-item sidebar-header d-flex flex-nowrap">
+                    <div class="user-pic">
+                        <a target="_new" href="https://grmtec.com.br"><img class="img-responsive img-rounded" src="img/grmtec-60x60.jpg" alt="GRMTEC"></a>
+                    </div>
+                    <div class="user-info">
+                        <span class="user-name">&nbsp;</span>
+                        <span class="user-role">GRM Tecnologia</span>
+                        <span class="user-status">
+                            <span><i class="fa fa-circle"></i>Based on Azouaoui component</span>
+                        </span>
+                    </div>
+                </div> 
+                <div class="sidebar-item sidebar-header d-flex justify-content-center">
+                    <a href="https://www.youtube.com/channel/UCI8nfFM83vwupRxcdA2qU1Q" target="_blank"><img class="img-header" src="img/social/youtube.png"></a>
+                    <a href="https://www.facebook.com/grmtec1" target="_blank"><img class="img-header" src="img/social/facebook.png"></a>
+                    <a href="https://twitter.com/grm_tec" target="_blank"><img class="img-header" src="img/social/twitter.png"></a>
+                    <a href="https://www.instagram.com/grm.tec/" target="_blank"><img class="img-header" src="img/social/instagram.png"></a>
+                </div>   
+                <div class="sidebar-item sidebar-header d-flex flex-nowrap">
+                    <div class="user-info">
+                        <span class="user-name">&nbsp;</span>
+                    </div>
+                </div>               
+                <!-- sidebar-menu  -->
+            </div>
+            <!-- sidebar-footer  -->
+            <div class="sidebar-footer">
+                 <div id="resultados" class="dropdown"></div>
+                 <div id="transfers" class="dropdown"></div>
+                 <div id="noticias" class="dropdown"></div>
+                 <div class="dropdown">
+                    <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa fa-cog"></i>
+                        <span class="badge-sonar"></span>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuMessage">
+                        <div class="messages-header"><span class="span-footer-img"><i class="fa fa-cog"></i></span><span class="span-footer-txt">Temas</span></div>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#" data-theme="default-theme" class="theme default-theme" onclick="setTema('default-theme');return(false)"><span style="background-color:#1d1d1d">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>&nbsp;Dark</a>
+                        <a class="dropdown-item" href="#" data-theme="chiller-theme" class="theme chiller-theme" onclick="setTema('chiller-theme');return(false)"><span style="background-color:#374140">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>&nbsp;Chiller</a>
+                        <a class="dropdown-item" href="#" data-theme="legacy-theme" class="theme legacy-theme" onclick="setTema('legacy-theme');return(false)"><span style="background-color:#2e333c">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>&nbsp;Legacy</a>
+                        <a class="dropdown-item" href="#" data-theme="ice-theme" class="theme ice-theme" onclick="setTema('ice-theme');return(false)"><span style="background-color:#3a4d56">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>&nbsp;Ice</a>
+                        <a class="dropdown-item" href="#" data-theme="cool-theme" class="theme cool-theme" onclick="setTema('cool-theme');return(false)"><span style="background-color:#46454c">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>&nbsp;Cool</a>
+                        <a class="dropdown-item" href="#" data-theme="light-theme" class="theme light-theme" onclick="setTema('light-theme');return(false)"><span style="background-color:#ececec">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>&nbsp;Light</a>
+                    </div>
+                 </div>
+                 
+                 <div class="dropdown">
+                    <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-user-friends"></i>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuMessage">
+                        <div class="messages-header"><span class="span-footer-img"><i class="fas fa-user-friends"></i></span><span class="span-footer-txt">Parners</span></div>
+                        <div class="dropdown-divider"></div>
+						<a class="dropdown-item" target="_newb" href="https://grmtec.com.br">GRM TEC</a>
+						<a class="dropdown-item" target="_newd" href="https://futebolnacional.com.br/">Futebol Nacional</a>
+                    </div>
+                 </div>                
+                 <div class="pinned-footer">
+                    <a href="#">
+                        <i class="fas fa-user-friends"></i>
+                    </a>
+                 </div>
+            </div>
+        </nav>
+        <!-- page-content  -->
+        <main class="page-content pt-2">
+            <div id="overlay" class="overlay"></div>
+            <div class="container-fluid p-6">
+                <div class="row">
+                    <div class="form-group col-md-12">
+                        <a id="toggle-sidebar" class="btn btn-outline-secondary rounded-0" href="#" onclick="return(false)">
+                          <span><i class="bar fas fa-chevron-left"></i><i class="bar fas fa-chevron-left"></i></span>
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+        </main>
+        <!-- page-content" -->
+    </div>
+    <!-- page-wrapper -->
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/swiped-events.js"></script>
+ 
+  
+</body>
+
+</html>

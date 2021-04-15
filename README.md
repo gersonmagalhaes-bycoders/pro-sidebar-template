@@ -1,33 +1,16 @@
 
- # Pro sidebar template
+ # Pro sidebar template with multilevel dropdown
 
-Responsive sidebar template with dropdown menu based on bootstrap framwork
+Responsive sidebar template with multilevel dropdown menu based on bootstrap framwork
+
+Based on pro-sidebar-temple developed by azouaoui (https://github.com/azouaoui-med/pro-sidebar-template)
 
 If you are looking for a version built with angular, then you should checkout the [Angular Pro Sidebar](https://github.com/azouaoui-med/angular-pro-sidebar) template
 
 ## Demo
 
-[See it live](https://azouaoui-med.github.io/pro-sidebar-template/src)
+[See it live](https://https://github.com/grmagalhaes/pro-sidebar-template/src-multilevel-dropdown)
 
-## Screenshot
-
-![Pro Sidebar](https://user-images.githubusercontent.com/25878302/57788668-c5fb5400-7737-11e9-91b7-7fd02703774c.png)
-
-## Quick start
-
-```
-npm install 
-
-npm start
-```
-
- Server runs on http://localhost:3000
-
-## Resources
-*   [Bootstrap](https://getbootstrap.com/)
-*   [JQuery](http://jquery.com/)
-*   [Font awesome](http://fontawesome.io/)
-*   [Malihu custom scrollbar plugin](https://github.com/malihu/malihu-custom-scrollbar-plugin)
 
 ## License
 This code is released under the [MIT](https://github.com/azouaoui-med/pro-sidebar-template/blob/gh-pages/LICENSE) license.
